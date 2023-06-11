@@ -1,0 +1,60 @@
+/* Root Variable */
+
+/* Universal */
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font: 10px Arial, Helvetica, sans-serif;
+}
+
+/* Content */
+
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.stopwatch {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 400px;
+	height: 400px;
+}
+
+.stopwatch-txt {
+	font-size: 8rem;
+	padding: 15px;
+	border: 10px solid black;
+	border-radius: 20px;
+}
+
+.start-btn,
+.clear-btn {
+	width: ;
+	font-size: 4rem;
+	border: 5px solid black;
+	padding: 10px;
+	margin: 20px 15px;
+	cursor: pointer;
+}
+
+.start-btn {
+	background-color: green;
+}
+
+.clear-btn {
+	background-color: red;
+}
+
+/* Utilities */
